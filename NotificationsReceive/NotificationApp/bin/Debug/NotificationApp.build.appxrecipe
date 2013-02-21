@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDREROD-WIN8</Machine>
+    <WindowsUser>andrerod</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\NotificationApp.exe">
+      <PackagePath>NotificationApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\NotificationApp.pdb">
+      <PackagePath>NotificationApp.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

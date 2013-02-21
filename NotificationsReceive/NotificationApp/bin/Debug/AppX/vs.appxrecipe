@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDREROD-WIN8</Machine>
+    <WindowsUser>andrerod</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7A84C347161BF805F965EA747A8D7058FE38BE197F43F346B81DD2BC1922DEC8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>55153AndreRodrigues.GithubNotifications_1.0.0.0_neutral__b1w19ka0m1k0g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>55153AndreRodrigues.GithubNotifications_b1w19ka0m1k0g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>55153AndreRodrigues.GithubNotifications</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=9EF7D457-3244-484D-A7C6-80C3E1952F30</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-21T18:25:35.376</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\NotificationApp.exe">
+      <PackagePath>NotificationApp.exe</PackagePath>
+      <Modified>2013-02-21T18:25:35.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\NotificationApp.pdb">
+      <PackagePath>NotificationApp.pdb</PackagePath>
+      <Modified>2013-02-21T18:25:35.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:44:06.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-21T18:25:35.283</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

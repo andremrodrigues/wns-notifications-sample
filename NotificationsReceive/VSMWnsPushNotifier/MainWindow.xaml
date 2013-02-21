@@ -1,0 +1,25 @@
+﻿<Window x:Class="VSMWnsPushNotifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="413" Width="543">
+    <Grid>
+        <StackPanel>
+            <Label>WNS URI</Label>
+            <TextBox Name="PushUri"></TextBox>
+            <Label>Secret Key</Label>
+            <PasswordBox Name="SecretKey"></PasswordBox>
+            <Label>SID</Label>
+            <PasswordBox Name="Sid"></PasswordBox>
+            <Label>Message</Label>
+            <TextBox Name="Message"></TextBox>
+            <Label>Image Source</Label>
+            <TextBox Name="ImageSource"></TextBox>
+            <Label>Notification Type</Label>
+            <ComboBox Name="PushType">
+            </ComboBox>
+            <Button Name="Notify" Click="Notify_Click">Notify</Button>
+            <Label>Status</Label>
+            <Label Name="Status"></Label>
+        </StackPanel>
+    </Grid>
+</Window>
