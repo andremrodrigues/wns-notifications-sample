@@ -1,0 +1,1 @@
+C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\NotificationApp.csproj;x64

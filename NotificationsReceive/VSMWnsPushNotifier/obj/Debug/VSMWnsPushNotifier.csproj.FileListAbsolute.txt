@@ -10,3 +10,4 @@ C:\source\wns-notifications-sample\NotificationsReceive\VSMWnsPushNotifier\bin\D
 C:\source\wns-notifications-sample\NotificationsReceive\VSMWnsPushNotifier\bin\Debug\VSMWnsPushNotifier.pdb
 C:\source\wns-notifications-sample\NotificationsReceive\VSMWnsPushNotifier\obj\Debug\VSMWnsPushNotifier.exe
 C:\source\wns-notifications-sample\NotificationsReceive\VSMWnsPushNotifier\obj\Debug\VSMWnsPushNotifier.pdb
+C:\source\wns-notifications-sample\NotificationsReceive\VSMWnsPushNotifier\obj\Debug\VSMWnsPushNotifier.csprojResolveAssemblyReference.cache

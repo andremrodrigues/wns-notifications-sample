@@ -31,3 +31,4 @@ C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\obj\Debu
 C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\obj\Debug\layout.resfiles.intermediate
 C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\obj\Debug\resources.resfiles.intermediate
 C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\obj\Debug\pri.resfiles.intermediate
+C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\obj\Debug\NotificationApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDREROD-WIN8</Machine>
+    <WindowsUser>andrerod</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <RegisteredManifestChecksum>DBE9316986F7AB5E815E00FC39FC6812BEEB150733BBE22AA3F868EFDD8C14F1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>55153AndreRodrigues.GithubNotifications_1.0.0.0_x64__b1w19ka0m1k0g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>55153AndreRodrigues.GithubNotifications_b1w19ka0m1k0g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>55153AndreRodrigues.GithubNotifications</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=9EF7D457-3244-484D-A7C6-80C3E1952F30</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-22T11:36:30.482</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\NotificationApp.exe">
+      <PackagePath>NotificationApp.exe</PackagePath>
+      <Modified>2013-02-22T12:38:53.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\NotificationApp.pdb">
+      <PackagePath>NotificationApp.pdb</PackagePath>
+      <Modified>2013-02-22T12:38:53.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\Microsoft.WindowsAzure.Messaging.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.dll</PackagePath>
+      <Modified>2013-02-22T11:53:59.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\Microsoft.WindowsAzure.Messaging.Managed.pdb">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.pdb</PackagePath>
+      <Modified>2013-02-22T11:53:56.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2011-12-13T06:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:05:15.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2013-02-21T17:44:06.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\source\wns-notifications-sample\NotificationsReceive\NotificationApp\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-22T11:54:07.872</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

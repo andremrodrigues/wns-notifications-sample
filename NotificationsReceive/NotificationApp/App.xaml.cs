@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Networking.PushNotifications;
+using Microsoft.WindowsAzure.Messaging;
 
 // The Grid App template is documented at http://go.microsoft.com/fwlink/?LinkId=234226
 
@@ -27,6 +28,8 @@ namespace NotificationApp
     sealed partial class App : Application
     {
         public static PushNotificationChannel CurrentChannel { get; private set; }
+
+        private NotificationHub notificationHub;
 
         private async void AcquirePushChannel()
         {
@@ -42,6 +45,19 @@ namespace NotificationApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            var connectionString = ConnectionString.CreateUsingSharedAccessSecretWithListenAccess("sb://ciserversb.servicebus.windows.net", "RVNwaVtIPTBPKW5dazhVMQ==");
+
+            notificationHub = new NotificationHub("myhub", connectionString);
+        }
+
+        private async void InitNotifications()
+        {
+            await notificationHub.RefreshRegistrationsAsync();
+            if (!await notificationHub.RegistrationExistsForApplicationAsync())
+            {
+                await notificationHub.CreateRegistrationForApplicationAsync();
+            }
         }
 
         /// <summary>
@@ -52,6 +68,8 @@ namespace NotificationApp
         /// <param name="args">Details about the launch request and process.</param>
         protected override async void OnLaunched(LaunchActivatedEventArgs args)
         {
+            InitNotifications();
+
             AcquirePushChannel();
 
             Frame rootFrame = Window.Current.Content as Frame;
